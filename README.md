@@ -43,11 +43,11 @@ Make sure you have the following installed:
   ```bash
   npm start
 
-Author
+### Author
 
 Kanimozhi Balaji - GitHub Profile
 
-License
+### License
 This project is open-source.
 
 
