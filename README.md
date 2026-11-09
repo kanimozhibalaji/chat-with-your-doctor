@@ -40,8 +40,8 @@ Make sure you have the following installed:
 
 4. Run the application:
 
-  ```bash
-  npm start
+```bash
+npm start
 
 ## Author
 
