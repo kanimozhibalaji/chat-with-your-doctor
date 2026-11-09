@@ -1,4 +1,4 @@
-# VitalSync (Chat with Your Doctor)
+# Chat with Your Doctor
 
 A web application designed to bridge the gap between patients and healthcare providers through seamless digital communication and health consultations.
 
@@ -43,12 +43,12 @@ Make sure you have the following installed:
   ```bash
   npm start
 
-### Author
+## Author
 
-Kanimozhi Balaji - GitHub Profile
+   Kanimozhi Balaji - GitHub Profile
 
-### License
-This project is open-source.
+## License
+   This project is open-source.
 
 
 ---
