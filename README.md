@@ -34,9 +34,9 @@ Make sure you have the following installed:
 
 3. Install dependencies:
 
- ```bash
+    ```bash
     npm install
-    Configure your environment variables:
+  
 
 4. Run the application:
 
@@ -52,11 +52,3 @@ This project is open-source.
 
 
 ---
-
-### Ready to push it to GitHub?
-Once you save this complete content inside your `README.md` file, run these commands in your terminal inside the `vitalsync` folder to upload it:
-
-```bash
-git add README.md
-git commit -m "Complete README.md"
-git push -u origin main
