@@ -1,0 +1,114 @@
+[
+    {
+        "id": "platform_about",
+        "category": "platform",
+        "question": "What is VitalSync?",
+        "content": "VitalSync is an AI-powered telemedicine platform that connects patients with qualified healthcare professionals. It offers online appointment booking, AI-driven symptom analysis, medical record management with AI report summarization, and real-time video consultations. The platform supports multiple medical specialities including General Physician, Gynecologist, Dermatologist, Pediatrician, Neurologist, and Gastroenterologist.",
+        "keywords": ["vitalsync", "platform", "about", "what", "telemedicine", "app", "website"]
+    },
+    {
+        "id": "how_book_appointment",
+        "category": "platform",
+        "question": "How do I book an appointment?",
+        "content": "To book an appointment on VitalSync: 1) Browse doctors by clicking 'All Doctors' in the navigation menu. 2) Filter by speciality if needed (e.g., Dermatologist, Neurologist). 3) Click on a doctor's profile to view their details, fees, and availability. 4) Select an available date and time slot. 5) Click 'Book Appointment' and confirm. You can view and manage all your appointments from the 'My Appointments' section in your profile dropdown.",
+        "keywords": ["book", "appointment", "schedule", "how", "slot", "date", "time", "booking"]
+    },
+    {
+        "id": "symptom_checker",
+        "category": "feature",
+        "question": "How does the AI Symptom Checker work?",
+        "content": "The AI Symptom Checker uses Google Gemini AI to analyze your symptoms and recommend the right medical specialist. To use it: 1) Click '🧠 AI CHECKER' in the navigation bar. 2) Describe your symptoms in detail or use the quick suggestion buttons. 3) Click 'Analyze My Symptoms'. 4) The AI will assess urgency level (low/medium/high), recommend a specialist, explain possible concerns, and show available doctors you can book with immediately. Note: This is not a diagnosis — always consult a doctor for clinical decisions.",
+        "keywords": ["symptom", "checker", "ai", "analyze", "analysis", "check", "recommend", "specialist", "what wrong"]
+    },
+    {
+        "id": "medical_records",
+        "category": "feature",
+        "question": "How do I upload and manage medical records?",
+        "content": "VitalSync lets you store and AI-analyze your medical records: 1) Log in and click your profile avatar in the top-right corner. 2) Select '📋 Medical Records' from the dropdown. 3) Drag-and-drop or click to upload your medical report images (JPG, PNG, WEBP, max 10MB). 4) Click '🤖 AI Analyze' on any uploaded report to get an instant AI summary including report type, key findings, vital metrics, flagged abnormal values, medications found, and follow-up recommendations. All records are stored securely in your account.",
+        "keywords": ["medical", "records", "report", "upload", "document", "summarize", "analyze", "health", "file"]
+    },
+    {
+        "id": "cancel_appointment",
+        "category": "platform",
+        "question": "How do I cancel an appointment?",
+        "content": "To cancel an appointment: 1) Go to 'My Appointments' from your profile dropdown. 2) Find the appointment you want to cancel. 3) Click the 'Cancel' button next to it. Appointments can only be cancelled before the scheduled time. Once cancelled, the time slot becomes available for other patients.",
+        "keywords": ["cancel", "appointment", "remove", "delete", "undo", "reschedule"]
+    },
+    {
+        "id": "payment_methods",
+        "category": "platform",
+        "question": "What payment methods are supported?",
+        "content": "VitalSync supports multiple payment options: 1) Razorpay — supports UPI, credit/debit cards, net banking, and wallets for Indian users. 2) Stripe — supports international credit/debit card payments. 3) Cash on visit — pay directly at the doctor's clinic. Payment is processed securely, and you'll receive confirmation after successful payment.",
+        "keywords": ["payment", "pay", "razorpay", "stripe", "card", "upi", "money", "fee", "cost", "price", "charge"]
+    },
+    {
+        "id": "doctor_specialities",
+        "category": "medical",
+        "question": "What types of doctors are available?",
+        "content": "VitalSync empanels 12 verified specialists across 6 core outpatient departments following WHO Stepped-Care Primary Care Gatekeeping: 1) General Physician (MD Internal Medicine) — Primary care gatekeeper for fever, cold, flu, routine headaches, mild dizziness, mild stomach upset/acidity, blood pressure checks, and general illnesses. 2) Gynecologist — Women's reproductive health, pregnancy, PCOS, menstrual disorders. 3) Dermatologist — Spreading skin rashes, eczema, psoriasis, cystic acne, cutaneous drug eruptions. 4) Pediatrician — Infants, toddlers, and children's health. 5) Neurologist — Escalated neurological care strictly for SNOOP-4 red flags (sudden thunderclap headache, stroke signs, seizures, focal paralysis). 6) Gastroenterologist — Escalated GI care for GI bleeding, jaundice, dysphagia, or severe chronic digestive disease.",
+        "keywords": ["doctor", "specialist", "speciality", "type", "category", "available", "general", "gynecologist", "dermatologist", "pediatrician", "neurologist", "gastroenterologist"]
+    },
+    {
+        "id": "fever_info",
+        "category": "medical",
+        "question": "What should I do if I have a fever?",
+        "content": "If you have a fever: 1) Rest and stay hydrated — drink plenty of water, ORS, and clear fluids. 2) Take paracetamol/acetaminophen for temperature above 100.4°F (38°C) as directed. 3) Use a cool damp cloth on your forehead. 4) Monitor your temperature regularly. 5) Seek immediate medical help if: fever is above 103°F (39.4°C), persists more than 3 days, is accompanied by severe headache, stiff neck, rash, difficulty breathing, or persistent vomiting. You can use our AI Symptom Checker or book a General Physician appointment for evaluation.",
+        "keywords": ["fever", "temperature", "hot", "chills", "sweating", "body heat", "pyrexia"]
+    },
+    {
+        "id": "headache_info",
+        "category": "medical",
+        "question": "When should I see a doctor for headaches?",
+        "content": "Under WHO Stepped-Care Primary Care Guidelines, over 90% of routine headaches (including 1-3 day severe tension headaches or headaches with mild dizziness) should be evaluated FIRST by a General Physician to check blood pressure, hydration, and posture—saving unnecessary tertiary specialist costs. Escalate immediately to Emergency Care / Neurologist ONLY if SNOOP-4 red flags appear: 1) Sudden 'thunderclap' headache reaching peak intensity in under 1 minute. 2) Facial drooping, slurred speech, or one-sided limb weakness. 3) Seizures, confusion, or loss of vision. 4) High fever with stiff neck.",
+        "keywords": ["headache", "head", "pain", "migraine", "tension", "cluster", "dizzy", "dizziness"]
+    },
+    {
+        "id": "skin_rash_info",
+        "category": "medical",
+        "question": "What should I do about a skin rash?",
+        "content": "For skin rashes: 1) Avoid scratching — it can worsen the condition and cause infection. 2) Apply a gentle moisturizer or calamine lotion. 3) Take an antihistamine (like cetirizine) if itching is severe. 4) Avoid harsh soaps and hot water on the affected area. 5) See a Dermatologist if: the rash spreads rapidly, is painful, has blisters or open sores, is accompanied by fever, or doesn't improve in a week. Take a clear photo of the rash and upload it to Medical Records for AI analysis, or use the Symptom Checker.",
+        "keywords": ["rash", "skin", "itching", "allergy", "hives", "eczema", "spots", "red", "bumps", "dermatology"]
+    },
+    {
+        "id": "stomach_pain_info",
+        "category": "medical",
+        "question": "What should I do for stomach pain?",
+        "content": "Under Stepped-Care Primary Care protocols, mild stomach pain, post-meal indigestion, acidity, gas, or bloating should be evaluated FIRST by a General Physician alongside hydration and bland diet (BRAT diet). Escalate to a Gastroenterologist or Emergency Care ONLY if GI alarm red flags occur: vomiting blood, black tarry stools, blood in stool, yellow eyes (jaundice), inability to swallow, or severe continuous abdominal rigidity.",
+        "keywords": ["stomach", "pain", "abdominal", "belly", "tummy", "digestion", "nausea", "vomiting", "gastric", "acid", "bloating"]
+    },
+    {
+        "id": "child_health",
+        "category": "medical",
+        "question": "When should I take my child to a pediatrician?",
+        "content": "Take your child to a Pediatrician if: 1) Fever above 100.4°F in infants under 3 months. 2) Fever lasting more than 3 days in older children. 3) Persistent cough, difficulty breathing, or wheezing. 4) Diarrhea or vomiting lasting more than 24 hours. 5) Rash that doesn't fade when pressed. 6) Reduced activity, excessive crying, or refusal to eat/drink. 7) For routine checkups and vaccinations. Pediatricians on VitalSync specialize in infant and child care. Book an appointment or use the Symptom Checker for guidance.",
+        "keywords": ["child", "baby", "kid", "infant", "toddler", "pediatric", "vaccination", "growth", "development"]
+    },
+    {
+        "id": "pregnancy_info",
+        "category": "medical",
+        "question": "What prenatal care is recommended during pregnancy?",
+        "content": "During pregnancy, essential care includes: 1) Regular gynecologist visits — monthly in first/second trimester, bi-weekly then weekly in third. 2) Take prenatal vitamins (folic acid, iron, calcium). 3) Get recommended tests — blood tests, ultrasounds, glucose screening. 4) Maintain a balanced diet rich in protein, fruits, and vegetables. 5) Stay physically active with safe exercises. 6) Avoid alcohol, smoking, and excessive caffeine. 7) Seek immediate help for: heavy bleeding, severe abdominal pain, sudden swelling, persistent headache, or reduced baby movement. Book a Gynecologist on VitalSync for your prenatal care.",
+        "keywords": ["pregnancy", "pregnant", "prenatal", "baby", "trimester", "gynecologist", "expecting", "maternity", "antenatal"]
+    },
+    {
+        "id": "account_profile",
+        "category": "platform",
+        "question": "How do I update my profile?",
+        "content": "To update your profile on VitalSync: 1) Click your profile avatar in the top-right corner. 2) Select 'My Profile'. 3) You can update your name, phone number, address, date of birth, and gender. 4) Click 'Save' to apply changes. 5) To change your profile photo, click on the current photo and upload a new image. Your email address cannot be changed as it's linked to your account authentication.",
+        "keywords": ["profile", "account", "update", "edit", "name", "phone", "address", "photo", "settings"]
+    },
+    {
+        "id": "emergency_info",
+        "category": "medical",
+        "question": "What should I do in a medical emergency?",
+        "content": "In a medical emergency: 1) Call your local emergency number immediately (112 in India, 911 in US, 999 in UK). 2) VitalSync is a telemedicine platform and is NOT for emergencies. 3) Go to the nearest hospital emergency room for: chest pain, difficulty breathing, severe bleeding, loss of consciousness, stroke symptoms (face drooping, arm weakness, speech difficulty), severe allergic reactions, or serious injuries. 4) For non-emergency but urgent concerns, use the AI Symptom Checker to assess urgency and book an immediate appointment.",
+        "keywords": ["emergency", "urgent", "911", "112", "ambulance", "critical", "serious", "danger", "life threatening", "hospital"]
+    },
+    {
+        "id": "data_privacy",
+        "category": "platform",
+        "question": "Is my health data secure on VitalSync?",
+        "content": "VitalSync takes data privacy seriously: 1) All medical records are stored securely in encrypted cloud storage (Cloudinary + MongoDB). 2) Your personal health information is only accessible to you and the doctors you consult. 3) Passwords are hashed using bcrypt encryption. 4) API communications use JWT token authentication. 5) AI analysis data is processed in real-time and not stored by the AI provider. 6) You can delete your medical records at any time from the Medical Records page.",
+        "keywords": ["privacy", "security", "data", "safe", "secure", "encryption", "confidential", "protected", "information"]
+    }
+]

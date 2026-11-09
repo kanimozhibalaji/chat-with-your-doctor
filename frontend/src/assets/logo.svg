@@ -1,0 +1,37 @@
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGrad" x1="2" y1="3" x2="44" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="55%" stop-color="#0369A1" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <linearGradient id="crossGlow" x1="12" y1="12" x2="34" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0F2FE" />
+    </linearGradient>
+    <filter id="softShadow" x="0" y="1" width="46" height="46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0284C7" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- Modern Squircle Badge -->
+  <g filter="url(#softShadow)">
+    <rect x="3" y="3" width="42" height="42" rx="12" fill="url(#brandGrad)" />
+    <rect x="3.75" y="3.75" width="40.5" height="40.5" rx="11.25" stroke="white" stroke-opacity="0.24" stroke-width="1.5" />
+  </g>
+
+  <!-- Medical Cross Silhouette (Subtle Backdrop) -->
+  <path d="M20.5 11.5C20.5 10.6716 21.1716 10 22 10H26C26.8284 10 27.5 10.6716 27.5 11.5V19.5H35.5C36.3284 19.5 37 20.1716 37 21V27C37 27.8284 36.3284 28.5 35.5 28.5H27.5V36.5C27.5 37.3284 26.8284 38 26 38H22C21.1716 38 20.5 37.3284 20.5 36.5V28.5H12.5C11.6716 28.5 11 27.8284 11 27V21C11 20.1716 11.6716 19.5 12.5 19.5H20.5V11.5Z" fill="white" fill-opacity="0.16" />
+
+  <!-- Crisp Heartbeat / Pulse Line Across Center -->
+  <path d="M10.5 24.5H16.5L19.5 17.5L23.5 31.5L27 21.5L29.5 24.5H37.5" stroke="url(#crossGlow)" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Status Pulse Dot -->
+  <circle cx="37.5" cy="11.5" r="3" fill="#38BDF8" stroke="#0369A1" stroke-width="1.2" />
+
+  <!-- Brand Wordmark: VitalSync -->
+  <text x="55" y="29" fill="#0F172A" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" letter-spacing="-0.6">Vital<tspan fill="#0284C7">Sync</tspan></text>
+
+  <!-- Subtitle Tagline -->
+  <text x="56" y="41" fill="#64748B" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.4">HEALTHCARE</text>
+</svg>

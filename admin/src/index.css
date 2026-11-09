@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif;
+        color: #0F172A;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        letter-spacing: -0.02em;
+    }
+}
+
+.tabular-nums {
+    font-variant-numeric: tabular-nums;
+}
+
+/* Disable native browser password reveal eye (Edge / Windows) to prevent double eye icon conflict */
+input::-ms-reveal,
+input::-ms-clear {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Subtle modern scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94A3B8;
+}
+
+/* Native HTML <dialog> modal scroll containment & backdrop styling */
+dialog:modal {
+    overscroll-behavior: contain;
+}
+
+dialog::backdrop {
+    overflow: hidden;
+    overscroll-behavior: contain;
+    background-color: rgba(2, 6, 23, 0.65);
+    backdrop-filter: blur(4px);
+}
+
+/* Modern Form Validation: feedback only after user interaction */
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
+    border-color: #dc2626 !important;
+    background-color: #fef2f2;
+}
+
+input:user-valid:not(:placeholder-shown) {
+    border-color: #059669;
+}
